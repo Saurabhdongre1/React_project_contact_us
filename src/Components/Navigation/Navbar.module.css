@@ -1,0 +1,31 @@
+/* Navbar.module.css */
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full width */
+  padding: 0 8px;
+}
+
+.navbar .logo {
+  margin-left: 25px;
+}
+
+.logo img {
+  width: 150px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
